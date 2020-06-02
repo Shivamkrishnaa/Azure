@@ -1,0 +1,18 @@
+{
+    "conpilerOptions": {
+        "module": "commonjs",
+        "esModuleInterop": true,
+        "target": "es6",
+        "noImplicityAny": true,
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "outDir": "dist",
+        "baseUrl": ".",
+        "paths": { 
+            "*": ["node_modules/*"]
+        },
+        "emitDecoratorMetadata": true,
+        "experimentalDecorator": true
+    },
+    "include": ["src/**/*"]
+}
