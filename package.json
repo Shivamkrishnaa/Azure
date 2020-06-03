@@ -8,19 +8,35 @@
     "build": "tsc",
     "dev": "nodemon --watch './src/**/*.ts' --exec ts-node ./src/index.ts"
   },
+  "keywords": [
+    "Azure",
+    "WebApp",
+    "TypeScript",
+    "ExpressJS"
+  ],
   "dependencies": {
     "bcrypt": "^4.0.1",
     "body-parser": "^1.19.0",
+    "class-transformer": "^0.2.3",
+    "class-validator": "^0.12.2",
     "express": "^4.17.1",
     "helmet": "^3.22.0",
     "jsonwebtoken": "^8.5.1",
+    "nodemon": "^2.0.4",
     "reflect-metadata": "^0.1.13",
-    "routing-controllers": "^0.9.0-alpha.2",
-    "ts-node": "^8.10.2",
-    "tslint": "^6.1.2",
-    "typescript": "^3.9.3"
+    "routing-controllers": "^0.9.0-alpha.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@types/bcrypt": "^3.0.0",
+    "@types/body-parser": "^1.17.0",
+    "@types/dotenv": "^6.1.0",
+    "@types/express": "^4.16.1",
+    "@types/helmet": "0.0.43",
+    "@types/jsonwebtoken": "^8.3.2",
+    "ts-node": "^8.0.3",
+    "tslint": "^5.14.0",
+    "typescript": "^3.3.3333"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Shivamkrishnaa/Azure.git"
@@ -30,5 +46,8 @@
   "bugs": {
     "url": "https://github.com/Shivamkrishnaa/Azure/issues"
   },
-  "homepage": "https://github.com/Shivamkrishnaa/Azure#readme"
+  "homepage": "https://github.com/Shivamkrishnaa/Azure#readme",
+  "optionalDependencies": {
+    "fsevents": "^2.1.3"
+  }
 }
